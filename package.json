@@ -1,0 +1,29 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "src/index.tsx",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prestart": "rm -rf dist",
+    "build": "microbundle-crl --no-compress --format modern,cjs,umd,es",
+    "start": "microbundle-crl watch --no-compress --format es"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "typescript": "3.9.7",
+    "microbundle-crl": "^0.13.10",
+    "sass": "1.26.10"
+  },
+  "files": [
+    "dist"
+  ]
+}

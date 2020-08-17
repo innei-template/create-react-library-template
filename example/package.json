@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "link:../node_modules/react",
+    "react-dom": "link:../node_modules/react-dom",
+    "template": "link:.."
+  },
+  "devDependencies": {
+    "typescript": "link:../node_modules/typescript",
+    "vite": "1.0.0-rc.4"
+  },
+  "scripts": {
+    "start": "vite "
+  },
+  "files": [
+    "dist"
+  ]
+}
