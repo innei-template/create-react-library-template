@@ -1,0 +1,4 @@
+{
+  "exec": "rm -rf node_modules/.vite_opt_cache && cp ../dist/*.css . && vite",
+  "watch": "../dist"
+}
